@@ -18,23 +18,3 @@ Korisničko ime:`navijac`
 Lozinka:`1234567`
 Prava pristupa:* Pregled nadzorne ploče, pregled statistike igrača i rasporeda utakmica (bez mogućnosti izmjena).
 
-
-## Struktura Projekta
-
-nogometni_klub/
-│
-├── config/
-│   └── database.php      # Povezivanje s MySQL bazom (PDO)
-│
-├── register.php          # Registracija novih korisnika
-├── login.php             # Prijava u sustav i provjera lozinke
-├── logout.php            # Sigurna odjava i uništavanje sesije
-├── dashboard.php         # Interaktivni panel prilagođen ulogama
-│
-├── players.php           # CRUD - Pregled, dodavanje i brisanje igrača
-├── edit_player.php       # CRUD - Uređivanje podataka o igraču
-│
-├── matches.php           # CRUD - Pregled, dodavanje i brisanje utakmica
-├── edit_match.php         # CRUD - Uređivanje rasporeda utakmica
-│
-└── README.md             # Dokumentacija projekta
